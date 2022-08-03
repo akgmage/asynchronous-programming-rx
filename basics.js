@@ -7,8 +7,9 @@
 
 /* 
     Map : if you wanna transform every item in a collection and put it into a new collection then use map
+    dont change original array, create whole new array
 */
-[1, 2, 3].map((x) => x + 1); // dont change original array, create whole new array
+[1, 2, 3].map((x) => x + 1);
 // outputs : [2, 3, 4]
 
 /* 
